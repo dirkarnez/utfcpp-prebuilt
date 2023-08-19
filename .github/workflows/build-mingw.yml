@@ -12,8 +12,8 @@ jobs:
     env:
       libraryName: utfcpp
       cmakeInstallationPath: utfcpp-installation
-      tagName: v3.2.1
-      mingwTargetZip: utfcpp-${{ github.ref_name }}-x86_64-posix-seh-rev0-8.1.0.zip
+      tagName: v3.2.4
+      mingwTargetZip: utfcpp-${{ github.ref_name }}-mingw64-x86_64-posix-seh-rev0-8.1.0.zip
     steps:
       - name: check mingw version
         run: gcc --version
